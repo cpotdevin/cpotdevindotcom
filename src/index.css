@@ -1,0 +1,70 @@
+:root {
+  --transparent: #00000000;
+  --header-color: #ffffff;
+  --header-shadow-color: #aeaec6;
+  --header-height: 80px;
+  --logo-color: #090925;
+  --menu-color: #090925;
+
+  --page-color: #ffffff;
+}
+
+body {
+  background-color: var(--page-color);
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background: linear-gradient(to bottom,
+                              var(--header-color) 99%,
+                              var(--header-shadow-color) 99%);
+  height: var(--header-height);
+}
+
+.header-cont {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.logo {
+  height: var(--header-height);
+  float: left;
+  line-height: var(--header-height);
+  font-size: 45px;
+  margin: 0 20px;
+}
+
+.logo a {
+  font-weight: normal;
+  color: var(--logo-color);
+}
+
+.menu {
+  float: right;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.menu a {
+  display: block;
+  line-height: var(--header-height);
+  color: var(--menu-color);
+  margin: 0;
+}
+
+.menu a:hover {
+  background: linear-gradient(to bottom,
+                              var(--transparent) 70%,
+                              var(--menu-color) 70%,
+                              var(--menu-color) 80%,
+                              var(--transparent) 80%);
+}
