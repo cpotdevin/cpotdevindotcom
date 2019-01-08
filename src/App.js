@@ -1,6 +1,5 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import Routes from './Routes';
 import './index.css';
 
 const App = () => (
@@ -14,7 +13,6 @@ const App = () => (
         </ul>
       </div>
     </nav>
-    <Routes />
   </div>
 );
 
