@@ -1,7 +1,6 @@
 import React from 'react';
-import {Switch, Route, NavLink} from 'react-router-dom';
-import Home from './Home';
-import Proyects from './Proyects'
+import {NavLink} from 'react-router-dom';
+import Routes from './Routes';
 import './index.css';
 
 const App = () => (
@@ -15,10 +14,7 @@ const App = () => (
         </ul>
       </div>
     </nav>
-    <Switch>
-      <Route exact path='/' component={Home} />
-      <Route exact path='/proyects' component={Proyects} />
-    </Switch>
+    <Routes />
   </div>
 );
 
