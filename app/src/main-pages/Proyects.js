@@ -2,8 +2,8 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
-import proyectPaths from './proyects/proyectPaths'
-import './content.css';
+import proyectPaths from '../proyects/proyectPaths'
+import '../content.css';
 
 export default class Proyects extends React.Component {
   getProyectLink(proyectData) {

@@ -1,7 +1,8 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Home from './Home';
-import Proyects from './Proyects';
+import Home from './main-pages/Home';
+import AboutMe from './main-pages/AboutMe';
+import Proyects from './main-pages/Proyects';
 import proyectPaths from './proyects/proyectPaths';
 
 export default class Routes extends React.Component {
@@ -18,6 +19,7 @@ export default class Routes extends React.Component {
     return (
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/about-me' component={AboutMe} />
         <Route exact path='/proyects' component={Proyects} />
         {proyectRoutes}
       </Switch>
