@@ -31,11 +31,19 @@ h1.logo {
   h1.logo {
     line-height: 80px;
   }
+
+  .menu li {
+    margin: 0 20px;
+  }
 }
 
-@media (max-width: 960px) {
+@media (min-width: 600px) and (max-width: 960px) {
   h1.logo {
     line-height: 60px;
+  }
+
+  .menu li {
+    margin: 0 20px;
   }
 }
 
@@ -64,6 +72,18 @@ h1.logo {
   margin: 0 20px;
   text-align: center;
   list-style-type: none;
+}
+
+@media (min-width: 400px) {
+  .menu li {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu li {
+    margin: 0 15px;
+  }
 }
 
 .menu li a {

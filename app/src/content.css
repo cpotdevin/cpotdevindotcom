@@ -36,10 +36,31 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 800px) {
   .content img.my-portrait {
     width: 300px;
     height: 300px;
+    margin: 50px auto 0 auto;
+    border-radius: 50%;
+  }
+
+  #about-me-name {
+    text-align: center;
+    margin: -80px auto 0 auto;
+  }
+
+  #about-me-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .content img.my-portrait {
+    width: 250px;
+    height: 250px;
     margin: 50px auto 0 auto;
     border-radius: 50%;
   }
