@@ -9,7 +9,7 @@ const AboutMe = () => (
     <Grid container className='content' xs={10} md={8}>
       <img src={portrait} alt='Christian Potdevin' class='my-portrait' />
       <h1 id='about-me-name'>
-        Christian Podevin
+        Christian Potdevin
         <h2 id='about-me-title'>Bachelor of Science in Computer Science and Electronic Engineering</h2>
       </h1>
     </Grid>
