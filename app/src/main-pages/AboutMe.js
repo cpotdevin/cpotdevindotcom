@@ -10,7 +10,7 @@ const AboutMe = () => (
       <img src={portrait} alt='Christian Potdevin' class='my-portrait' />
       <h1 id='about-me-name'>
         Christian Podevin
-        <h2 id='about-me-title'>Bachelor's in Copmuter Science and Electronic Engineering</h2>
+        <h2 id='about-me-title'>Bachelor of Science in Computer Science and Electronic Engineering</h2>
       </h1>
     </Grid>
   </Grid>
