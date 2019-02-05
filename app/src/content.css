@@ -68,7 +68,7 @@
 }
 
 .experience {
-  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .content .experience-logo {
@@ -88,7 +88,7 @@
 
 @media (min-width: 800px) {
   .content .banner {
-    height: 500px;
+    height: 450px;
   }
   
   .content div.my-portrait {

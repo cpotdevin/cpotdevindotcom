@@ -19,11 +19,11 @@ export default class Proyects extends React.Component {
 
     return (
       <Grid container direction='row' justify='center' alignItems='center'>
-        <Grid container className='content' xs={10} md={8}>
-          <Grid item xs={12}>
+        <Grid container className='content'>
+          <Grid item  xs={10} md={8}>
             <h1>Proyects</h1>
           </Grid>
-          <Grid container spacing='16' xs={12}>
+          <Grid container>
             {proyectList}
           </Grid>
         </Grid>
