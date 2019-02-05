@@ -41,9 +41,6 @@ class AboutMe extends React.Component {
           <h3>Experience</h3>
           {experienceList}
         </Grid>
-        <Grid item className='education' xs={10} md={8}>
-          <h3>Education</h3>
-        </Grid>
       </Grid>
     );
   }
