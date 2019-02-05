@@ -51,16 +51,12 @@ h1.logo {
   color: var(--logo-color);
 }
 
-.menu-container {
-  align-items: center;
-  align-content: center;
-}
-
 .menu {
   height: var(--menu-height);
   line-height: var(--menu-height);
   margin: auto;
   padding: 0;
+  text-align: center;
 }
 
 .menu li {
