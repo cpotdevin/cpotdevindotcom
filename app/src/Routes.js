@@ -7,7 +7,6 @@ import proyectPaths from './proyects/proyectPaths';
 
 export default class Routes extends React.Component {
   getProyectRoute = (proyectData) => {
-    console.log(proyectData);
     return <Route key={`/proyects/${proyectData.path}${Date.now()}`}
                   exact path={`/proyects/${proyectData.path}`}
                   component={proyectData.component} />;

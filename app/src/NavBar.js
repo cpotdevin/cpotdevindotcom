@@ -8,7 +8,7 @@ const NavBar = () => (
     <Grid container className='header-cont' sx={12} md={5}>
       <h1 className='logo'><NavLink exact to='/'>cpotdevin.com</NavLink></h1>
     </Grid>
-    <Grid className='menu-container' container sx={12} md={5}>
+    <Grid container className='menu-container' sx={12} md={5}>
       <ul className='menu'>
         <li><NavLink exact to='/'>home</NavLink></li>
         <li><NavLink exact to='/about-me'>about me</NavLink></li>

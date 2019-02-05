@@ -6,7 +6,7 @@ import proyectPaths from '../proyects/proyectPaths'
 import '../content.css';
 
 export default class Proyects extends React.Component {
-  getProyectLink(proyectData) {
+  getProyectComponent(proyectData) {
     return (
       <Paper key={`/proyects/${proyectData.path}`}>
         <Link to={`/proyects/${proyectData.path}`}>{proyectData.name}</Link>
@@ -15,7 +15,7 @@ export default class Proyects extends React.Component {
   }
 
   render() {
-    const proyectList = proyectPaths.map(this.getProyectLink);
+    const proyectList = proyectPaths.map(this.getProyectComponent);
 
     return (
       <Grid container direction='row' justify='center' alignItems='center'>
