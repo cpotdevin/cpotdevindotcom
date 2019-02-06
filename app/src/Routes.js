@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 import Home from './main-pages/Home';
-import AboutMe from './main-pages/AboutMe';
+import AboutMe from './main-pages/about-me/AboutMe';
 import Proyects from './main-pages/Proyects';
 import proyectPaths from './proyects/proyectPaths';
 

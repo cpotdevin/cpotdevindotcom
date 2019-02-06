@@ -1,7 +1,6 @@
-import logoTI from '../images/logos/ti.png';
-import logoTUM from '../images/logos/tum.png';
-import logoOath from '../images/logos/oath.png';
-import logoAndes from '../images/logos/andes.png';
+import logoTI from '../../images/logos/ti.png';
+import logoOath from '../../images/logos/oath.png';
+import logoAndes from '../../images/logos/andes.png';
 
 
 const experiences = [
@@ -12,14 +11,6 @@ const experiences = [
     dates: 'March 2018 - July 2018',
     location: 'Munich Area, Germany',
     description: 'Validation engineer for low power DC/DC converters. I work with a team of engineers to test the developed devices in order to determine if they comply with all required specifications. My responsibilities include: developing python scripts to automate processes including filtering, arranging and formatting of data, and developing a software program using TestStand, LabVIEW and python to automate testing of the line and load transient responses of devices.'
-  },
-  {
-    logo: logoTUM,
-    title: 'Engineering Exchange Semester',
-    company: 'Technical University Munich',
-    dates: 'October 2017 - March 2018',
-    location: 'Munich Area, Germany',
-    description: 'Exchange student enrolled in the Electrical and Computer Engineering department. Attended courses on Machine Learning, Artificial Intelligence, Real Time Operating Systems, VHDL and German.'
   },
   {
     logo: logoOath,
