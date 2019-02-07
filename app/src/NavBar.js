@@ -4,9 +4,9 @@ import {NavLink} from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => (
-  <Grid container className='header' justify='center' alignItems='center'>
-    <Grid item className='header-cont' xs={12} md={5}>
-      <h1 className='logo'><NavLink exact to='/'>cpotdevin.com</NavLink></h1>
+  <Grid container className='menu-bar' justify='center' alignItems='center'>
+    <Grid item className='menu-bar-cont' xs={12} md={5}>
+      <h1 className='banner'><NavLink exact to='/'>cpotdevin.com</NavLink></h1>
     </Grid>
     <Grid item className='menu-container' xs={12} md={5}>
       <ul className='menu'>

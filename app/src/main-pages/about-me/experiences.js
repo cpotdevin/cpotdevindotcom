@@ -18,7 +18,7 @@ const experiences = [
     company: 'Oath',
     dates: 'July 2017 - September 2017',
     location: 'Frankfurt Am Main Area, Germany',
-    description: 'Backend java developer for an internal API that facilitates language translation management for company products. Worked in a five person team using Scrum agile development workflow. Was responsible for feature and unit test development using Maven, Spring boot, Mockito, MySQL and git.'
+    description: 'Backend java developer for an internal API that facilitates language translation management for company products. Worked in a five person team using Scrum agile development workflow. Was responsible for feature and unit test development using Maven, Spring boot, Mockito, MySQL and Git.'
   },
   {
     logo: logoAndes,

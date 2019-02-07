@@ -1,5 +1,6 @@
 import logoAndes from '../../images/logos/andes.png';
 import logoTUM from '../../images/logos/tum.png';
+import logoNogales from '../../images/logos/nogales.png';
 
 const academicExperiences = [
   {
@@ -25,6 +26,14 @@ const academicExperiences = [
     dates: 'October 2017 - March 2018',
     location: 'Munich Area, Germany',
     description: 'Exchange student enrolled in the Electrical and Computer Engineering department. Attended courses on Machine Learning, Artificial Intelligence, Real Time Operating Systems, VHDL and German.'
+  },
+  {
+    logo: logoNogales,
+    title: 'High School and Middle School',
+    company: 'Colegio Los Nogales',
+    dates: '2002 - June 2014',
+    location: 'Bogotá, Colombia',
+    description: ''
   }
 ];
 
