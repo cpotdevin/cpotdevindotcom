@@ -3,8 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import {Link} from 'react-router-dom';
 // import proyectPaths from '../proyects/proyectPaths'
-import mirrorBall1 from '../images/Proyects/mirrorBall1.png';
-import mirrorBall2 from '../images/Proyects/mirrorBall2.png';
+import mirrorSphere1 from '../images/proyects/mirrorSphere1.png';
+import mirrorSphere2 from '../images/proyects/mirrorSphere2.png';
 import VideoContainer from '../content-helpers/VideoContainer'
 import './Proyects.css';
 
@@ -40,10 +40,10 @@ export default class Proyects extends React.Component {
           </Grid>
           <Grid container direction='row' justify='center' alignContent='center'>
             <Grid item className='mirror-ball-image' xs={10} sm={5} md={4}>
-              <img className='mirror-ball-image' src={mirrorBall1} alt='mirror ball'/>
+              <img className='mirror-ball-image' src={mirrorSphere1} alt='mirror ball'/>
             </Grid>
             <Grid item className='mirror-ball-image' xs={10} sm={5} md={4}>
-              <img className='mirror-ball-image' src={mirrorBall2} alt='mirror ball'/>
+              <img className='mirror-ball-image' src={mirrorSphere2} alt='mirror ball'/>
             </Grid>
           </Grid>
         </Grid>
