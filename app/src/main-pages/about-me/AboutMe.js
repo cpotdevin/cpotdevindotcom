@@ -1,11 +1,11 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import './about-me.css';
 import portrait from '../../images/portrait.jpg';
 import loadingCircle from '../../images/one-third-circle.svg';
 import Experience from './Experience'
 import experiences from './experiences';
 import academicExperiences from './academicExperiences';
+import './about-me.css';
 
 const AboutMe = () => (
   <Grid container className='content about-me' direction='row' justify='center' alignItems='center'>

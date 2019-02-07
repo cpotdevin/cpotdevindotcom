@@ -29,9 +29,9 @@ const academicExperiences = [
   },
   {
     logo: logoNogales,
-    title: 'High School and Middle School',
+    title: 'High School',
     company: 'Colegio Los Nogales',
-    dates: '2002 - June 2014',
+    dates: 'August 2010 - June 2014',
     location: 'Bogotá, Colombia',
     description: ''
   }
