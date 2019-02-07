@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Routes from './Routes';
 import Footer from './Footer';
 import './index.css';
+import './content.css';
 
 const App = () => (
   <div>
