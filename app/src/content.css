@@ -46,3 +46,11 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.content a {
+  color: #000000;
+}
+
+.content a:hover {
+  color: #999999;
+}
