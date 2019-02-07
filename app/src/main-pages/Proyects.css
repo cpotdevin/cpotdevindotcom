@@ -7,6 +7,10 @@
   margin-bottom: 50px;
 }
 
+.content iframe.video {
+  margin-bottom: 50px;
+}
+
 @media (min-width: 1200px) {
   .content img.mirror-ball-image {
     width: 350px;
