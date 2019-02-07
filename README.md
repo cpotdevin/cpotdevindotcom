@@ -1,0 +1,1 @@
+For this website I used the Material-UI component library. I used it instead of Bootstrap because it is made for use in conjunction with React and because it greatly reduces grid styling code. Also, it implements Google's Material Design.
