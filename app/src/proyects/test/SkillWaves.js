@@ -44,7 +44,7 @@ class SkillWaves {
   }
 
   drawSine(yPos, time, amplitude, frequency, speed, noise, text) {
-    let start = 150;
+    let start = 130;
 
     this.ctx.fillStyle = 'grey';
     this.ctx.fillRect(start, yPos - 14, 1, 30);

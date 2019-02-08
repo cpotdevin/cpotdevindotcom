@@ -24,7 +24,7 @@ const AboutMe = () => (
     </Grid>
     <Grid item className='who-am-i' xs={10} md={8}>
       <h3>tl;dr</h3>
-      <p>I am a big time DIYer, programmer, artist, and problem solver. Currently, I hold great interest in web/app development and am dedicating most of my time to courses and proyects that emphasize these topics. During most of 2017 and 2018 I was studying abroad in Geermany where I also worked as a backend developer and validation engineer. Some of my hobbies include photography, CGI, electronics DIY proyects and of course... programming. I am presently focusing on finishing my studies for my bachelor's degrees in Electronic Engineering and Computer Science. This will alow me to graduate at the start of the year 2020.</p>
+      <p>I am a big time DIYer, programmer, artist, and problem solver. Currently, I hold great interest in web/app development and am dedicating most of my time to courses and proyects that emphasize these topics. During most of 2017 and 2018 I was studying abroad in Germany where I also worked as a backend developer and validation engineer. Some of my hobbies include photography, CGI, electronics DIY proyects and of course... programming. I am presently focusing on finishing my studies for my bachelor's degrees in Electronic Engineering and Computer Science. This will alow me to graduate at the start of the year 2020.</p>
     </Grid>
     <Grid container direction='row' justify='center' alignItems='center'>
       <Grid item className='skillset-text' xs={10} md={8}>

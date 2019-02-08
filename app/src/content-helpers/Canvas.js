@@ -29,7 +29,7 @@ class Canvas extends React.Component {
     let newCanvasWidth = this.state.initialCanvasWidth*scale;
     // let newCanvasHeight = this.state.initialCanvasHeight*scale;
     if (width < 500) {
-      newCanvasWidth = this.state.initialCanvasWidth*0.5;
+      newCanvasWidth = this.state.initialCanvasWidth*0.45;
       // newCanvasHeight = this.state.initialCanvasHeight*0.5;
     } else if (1200 < width) {
       newCanvasWidth = this.state.initialCanvasWidth*1.2;
