@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import mirrorSphere1 from '../images/proyects/mirrorSphere1.png';
 import mirrorSphere2 from '../images/proyects/mirrorSphere2.png';
 import VideoContainer from '../content-helpers/VideoContainer'
+import audio from '../thats-all.mp3';
 import './Proyects.css';
 
 export default class Proyects extends React.Component {
@@ -86,6 +87,12 @@ export default class Proyects extends React.Component {
           <Grid item className='test' xs={10} md={8}>
             <VideoContainer width='560' height='315' src="https://www.youtube-nocookie.com/embed/MLxleatB2IA" />
           </Grid>
+        </Grid>
+
+        <Grid item className='audio' xs={10} md={8}>
+          <audio controls>
+            <source src={audio} type='audio/mpeg' />
+          </audio>
         </Grid>
       </Grid>
     );

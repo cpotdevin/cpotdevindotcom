@@ -11,6 +11,10 @@
   margin-bottom: 50px;
 }
 
+.content .audio {
+  text-align: center;
+}
+
 @media (min-width: 1200px) {
   .content img.mirror-ball-image {
     width: 350px;
