@@ -36,6 +36,10 @@
   transform: scaleX(0.9);
 }
 
+.about-me .skillset {
+  text-align: center;
+}
+
 .about-me .experience {
   margin-bottom: 50px;
 }

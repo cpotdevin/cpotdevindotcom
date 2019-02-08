@@ -92,6 +92,7 @@ export default class Proyects extends React.Component {
         <Grid item className='audio' xs={10} md={8}>
           <audio controls>
             <source src={audio} type='audio/mpeg' />
+            This browser does not support audio elements.
           </audio>
         </Grid>
       </Grid>
