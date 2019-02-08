@@ -36,11 +36,11 @@ class SkillWaves {
     this.t += 0.01;
     this.drawSine(50, this.t, 10, 70, 12, 1.5, 'Java');
     this.drawSine(100, this.t, 18, 70, 2, 3, 'C/C++');
-    this.drawSine(150, this.t, 2, 50, 6, 2.5, 'MATLAB');
-    this.drawSine(200, this.t, 25, 40, 8, 1, 'Python');
-    this.drawSine(250, this.t, 18, 30, 10, 0, 'HTML');
-    this.drawSine(300, this.t, 20, 25, 4, 0, 'CSS');
-    this.drawSine(350, this.t, 30, 20, 10, 0, 'JavaScript');
+    // this.drawSine(150, this.t, 2, 50, 6, 2.5, 'MATLAB');
+    this.drawSine(150, this.t, 25, 40, 8, 1, 'Python');
+    this.drawSine(200, this.t, 18, 30, 10, 0, 'HTML');
+    this.drawSine(250, this.t, 20, 25, 4, 0, 'CSS');
+    this.drawSine(300, this.t, 30, 20, 10, 0, 'JavaScript');
   }
 
   drawSine(yPos, time, amplitude, frequency, speed, noise, text) {
