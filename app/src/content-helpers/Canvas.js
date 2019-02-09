@@ -1,5 +1,5 @@
 import React from 'react';
-import SkillWaves from '../proyects/test/SkillWaves';
+import SkillWaves from '../projects/test/SkillWaves';
 
 class Canvas extends React.Component {
   constructor(props) {

@@ -12,7 +12,7 @@ const NavBar = () => (
       <ul className='menu'>
         <li><NavLink exact to='/'>about me</NavLink></li>
         {/* <li><NavLink exact to='/about-me'>about me</NavLink></li> */}
-        <li><NavLink exact to='/proyects'>proyects</NavLink></li>
+        <li><NavLink exact to='/projects'>projects</NavLink></li>
       </ul>
     </Grid>
   </Grid>

@@ -1,6 +1,6 @@
 import Labyrinth from './labyrinth/Labyrinth';
 
-const proyectPaths = [
+const projectPaths = [
   {
     path: 'labyrinth',
     name: 'Moving Labrynth',
@@ -8,4 +8,4 @@ const proyectPaths = [
   }
 ];
 
-export default proyectPaths;
+export default projectPaths;

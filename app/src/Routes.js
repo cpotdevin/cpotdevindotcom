@@ -2,25 +2,25 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 // import Home from './main-pages/Home';
 import AboutMe from './main-pages/about-me/AboutMe';
-import Proyects from './main-pages/Proyects';
-import proyectPaths from './proyects/proyectPaths';
+import Projects from './main-pages/Projects';
+import projectPaths from './projects/projectPaths';
 
 export default class Routes extends React.Component {
-  getProyectRoute = (proyectData) => {
-    return <Route key={`/proyects/${proyectData.path}${Date.now()}`}
-                  exact path={`/proyects/${proyectData.path}`}
-                  component={proyectData.component} />;
+  getProjectRoute = (projectData) => {
+    return <Route key={`/projects/${projectData.path}${Date.now()}`}
+                  exact path={`/projects/${projectData.path}`}
+                  component={projectData.component} />;
   }
 
   render () {
-    const proyectRoutes = proyectPaths.map(this.getProyectRoute);
+    const projectRoutes = projectPaths.map(this.getProjectRoute);
 
     return (
       <Switch>
         <Route exact path='/' component={AboutMe} />
         {/* <Route exact path='/about-me' component={AboutMe} /> */}
-        <Route exact path='/proyects' component={Proyects} />
-        {proyectRoutes}
+        <Route exact path='/projects' component={Projects} />
+        {projectRoutes}
       </Switch>
     );
   }
