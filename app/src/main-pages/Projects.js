@@ -88,13 +88,6 @@ export default class Projects extends React.Component {
             <VideoContainer width='560' height='315' src="https://www.youtube-nocookie.com/embed/MLxleatB2IA" />
           </Grid>
         </Grid>
-
-        <Grid item className='audio' xs={10} md={8}>
-          <audio controls>
-            <source src={audio} type='audio/mpeg' />
-            This browser does not support audio elements.
-          </audio>
-        </Grid>
       </Grid>
     );
   }
