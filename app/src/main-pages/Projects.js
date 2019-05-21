@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 import mirrorSphere1 from '../images/projects/mirrorSphere1.png';
 import mirrorSphere2 from '../images/projects/mirrorSphere2.png';
 import VideoContainer from '../content-helpers/VideoContainer'
-import audio from '../thats-all.mp3';
 import './Projects.css';
 
 export default class Projects extends React.Component {
