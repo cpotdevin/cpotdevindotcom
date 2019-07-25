@@ -58,6 +58,7 @@ main {
 }
 
 #banner > div:nth-child(1) div {
+    border-width: 2px;
     height: 350px;
     margin: 0 auto;
     position: absolute;
@@ -161,8 +162,8 @@ p {
 
 .spinner {
     animation: spinner 3s linear infinite;
-    border: solid 2px transparent;
-    border-bottom: solid 2px black;
+    border: solid transparent;
+    border-bottom: solid black;
     border-radius: 50%;
 }
 
@@ -188,6 +189,7 @@ p {
 }
 
 .time-interval > div:nth-of-type(2) div {
+    border-width: 1px;
     height: 70px;
     left: 10px;
     position: absolute;
