@@ -113,6 +113,12 @@ main {
     }
 }
 
+hr {
+    border: 0;
+    border-top: solid 1px gray;
+    margin: 2rem auto;
+}
+
 h1 {
     font-family: var(--playfair-display);
     font-size: 2.5rem;
