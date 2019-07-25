@@ -206,6 +206,10 @@ p {
         flex-direction: column-reverse;
     }
 
+    .time-interval > div:first-of-type {
+        align-self: flex-start;
+    }
+
     .time-interval > div:nth-of-type(2) {
         margin: 0 auto;
         top: 20px;
