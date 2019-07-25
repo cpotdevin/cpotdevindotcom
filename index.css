@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: solid 1px gray;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+#logo {
+    font-weight: 700;
+    text-align: center;
+}
+
+main {
+    padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
