@@ -32,7 +32,7 @@ const AboutMe = () => (
         <p>Here are what I have appropriately denominated my skillwaves. Each wave characteristic has a particular meaning for the corresponding programming language: the period indicates how long ago I started learning it, the amplitude represents my current level of interest in it, the speed represents my comfort level with it, and finally, the noise represents how "rusty" I currently am with it.</p>
       </Grid>
       <Grid item className='skillset' xs={10} md={8}>
-        <Canvas width='600' height='350' canvasID='canvas-test'/>
+        <Canvas width='600' height='400' canvasID='canvas-test'/>
       </Grid>
       <Grid item className='skillset-text' xs={10} md={8}>
         <p>Besides my programming abilities I am native in English and Spanish, I have limited working proficiency in German and elementary proficiency in French.</p>
